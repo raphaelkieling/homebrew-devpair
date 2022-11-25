@@ -4,7 +4,7 @@ class Devpair < Formula
   desc "Tool to make the pair programming easier"
   homepage "https://github.com/raphaelkieling/devpair"
   head "https://github.com/raphaelkieling/devpair"
-  url "https://github.com/raphaelkieling/devpair/archive/refs/tags/v1.1.16.tar.gz"
+  url "https://github.com/raphaelkieling/devpair/archive/refs/tags/v1.1.18.tar.gz"
   depends_on "python@3.10"
 
   resource "click" do
