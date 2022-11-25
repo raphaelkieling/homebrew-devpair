@@ -6,6 +6,7 @@ class Devpair < Formula
   head "https://github.com/raphaelkieling/devpair"
   url "https://github.com/raphaelkieling/devpair/archive/refs/tags/v1.1.18.tar.gz"
   depends_on "python@3.10"
+  version "1.1.18"
 
   resource "click" do
     url "https://files.pythonhosted.org/packages/59/87/84326af34517fca8c58418d148f2403df25303e02736832403587318e9e8/click-8.1.3.tar.gz"
@@ -51,4 +52,3 @@ class Devpair < Formula
     virtualenv_install_with_resources
   end
 end
-
